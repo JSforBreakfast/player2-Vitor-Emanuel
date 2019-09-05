@@ -1,0 +1,25 @@
+/*CSS layout*/
+
+*{
+padding: 0;
+margin: 0;
+}
+
+#container{
+
+}
+
+header {
+background-color: red;
+height: 80px;
+}
+
+#main{
+  background-color: yellow;
+  height: 300px;
+}
+
+footer{
+background-color: #090;
+height: 60px;
+}
