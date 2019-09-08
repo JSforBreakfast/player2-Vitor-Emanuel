@@ -13,7 +13,7 @@
 
     <nav class="nav-main">
 
-  <div class="btn-toggle-nav" onclick="toggleNav()"><img src = "img/HamburgerLogo.png"/>
+  <div class="btn-toggle-nav"><img src = "img/HamburgerLogo.png"/>
   </div>
 
   <div class="user_icon"> <img src="img/user_icon.png"/>
@@ -57,7 +57,7 @@
  </div>
 </nav>
 
-<aside class="nav-sidebar">
+<aside class="nav-sidebar" onclick="toggleNav()">
   <ul>
     <li><img id="Post-3" src="img/Post-3.png"/>
     <a href="#">Dashboard</a>
@@ -65,20 +65,56 @@
     <li><img id="Post-2"src="img/Post-2.png"/>
     <a href="#">Clientes</a>
     </li>
-    <li>
+    <li><img id="Post-1"src="img/Post-1.png"/>
     <a href="#">Atendente</a>
     </li>
-    <li>
+    <li><img id="Post-4" src="img/Post@2x.png"/>
     <a href="#">Arquivo</a>
     </li>
   </ul>
 </aside>
 
 <div class="rightside">
+<ul>
+  <li><span>
+    <p id="detalhes">
+      Detalhes
+    </p>
+  </span>
+  </li>
+  <li>
+  <p id="nome-cliente">
+    Fabio Assunção
+  </p>
+  </li>
+</ul>
 
+<ul class="dados-contato">
+  <li>
+  <p> <img src="img/User Name@2x.png"/>
+    <strong>Telefone:</strong>71 98854 6743
+  </p>
+  </li>
+  <li>
+    <p> <img src="img/User Name-1@2x.png"/>
+    <strong> Data do contato:</strong>
+    12/08/2018 - 00:12:00
+    </p>
+  </li>
+  <li><img src="img/baseline-contact_support-24px@2x.png"/>
+    <strong>Motivo:</strong> Reclamação
+  </li>
+  <li>
+    <p>
+      Informações: Número do pedido: 12345 CPF/CNPJ: 00.000.000-0000/00 Loja: Baianão Móveis (Pituba) Motivo: Montagem atrasada Protocolo: 0000000
+    </p>
+  </li>
+</ul>
+<br>
+</div>
+<div class="container">
 
 </div>
-
 <footer class="bottom">
 
 </footer>
