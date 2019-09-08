@@ -1,3 +1,10 @@
+*{
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color:#f1f1f1;
 }
@@ -7,7 +14,7 @@ body {
   top: 0;
   width: 100%;
   height: 60px;
-  background-color: #fff;
+  background-color: pink;
   display: flex;
   flex-wrap: wrap;
   z-index: 1000;
@@ -16,7 +23,7 @@ body {
 .btn-toggle-nav{
   width: 193px;
   height: 100%;
-  background-color: #fff;
+  background-color: red;
   background-image: url("img/HamburgerLogo.png");
   background-repeat: no-repeat;
   background-size:40%;
@@ -45,7 +52,7 @@ body {
   padding:0 10px;
   text-decoration: none;
   color: #111;
-  font-family: arial;
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
 }
 
@@ -56,8 +63,9 @@ bottom: 0;
 width: 50px;
 height: calc(100vh - 60px);
 padding: 0 5px;
-background-color: #fff;
+background-color: green;
 z-index: 1000;
+transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul {
@@ -77,9 +85,11 @@ z-index: 1000;
   padding: 0 10px;
   text-decoration: none;
   color: #111;
-  font-family: arial;
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
   white-space: nowrap;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul li a: hover{
@@ -93,7 +103,7 @@ bottom: 0;
 width: 150px;
 height: calc(100vh - 60px);
 padding: 0 5px;
-background-color: #fff;
+background-color: purple;
 z-index: 1000;
 }
 
@@ -102,7 +112,7 @@ z-index: 1000;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #fff;
+  background-color: orange;
   display: flex;
   flex-wrap: wrap;
   z-index: 1000;
