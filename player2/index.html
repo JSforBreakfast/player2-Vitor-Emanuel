@@ -2,43 +2,52 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>Layout player2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Vitor Emanuel Layout player2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
 
     <nav class="nav-main">
-  <div class="btn-toggle-nav" onclick="toggleNav()">
+
+  <div class="btn-toggle-nav" onclick="toggleNav()"><img src = "img/HamburgerLogo.png" width="193px" height="60px"/>
   </div>
 
-    <ul>
-      <li>
-      <a href="#">icon</a>
-      </li>
-      <li>
-      <a href="#">name</a>
-      </li>
-      <li>
-      <a href="#">number</a>
-      </li>
-      <li>
-      <a href="#">group</a>
-      </li>
-      <li>
-      <a href="#">call</a>
-      </li>
-      <li>
-      <a href="#">placeholder</a>
-      </li>
-      <li>
-      <a href="#">logout</a>
-      </li>
-    </ul>
+  <div class="user_icon"> <img src="img/user_icon.png" width: "55px"
+height: "55px"/>
+  </div>
+
+<div>
+
+  <ul>
+     <li id="name">
+     <a href="#"><strong>John Doe</strong></a>
+     </li>
+     <li id="line">
+     <a href="#">Ramal</a>
+     </li>
+     <li id="number">
+     <a href="#">0000</a>
+     </li>
+     <li id="group">
+     <a href="#">grupo</a>
+     </li>
+     <li id="prospecting">
+     <a href="#">Prospecção</a>
+     </li>
+     <li id="call"> <img src="img/Path 371.png" top: "21px" left: "833px" width: "18px" height: "18px"/>
+     <a href="#" id="call-link">Chamada ativa</a>
+     </li>
+     <li>
+     <a href="#">logout</a>
+     </li>
+   </ul>
 
 </nav>
-
+</div>
 <aside class="nav-sidebar">
   <ul>
     <li>
@@ -66,4 +75,6 @@
 </footer>
   </body>
   <script src="js/actions.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </html>
