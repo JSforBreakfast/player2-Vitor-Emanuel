@@ -13,15 +13,13 @@
 
     <nav class="nav-main">
 
-  <div class="btn-toggle-nav" onclick="toggleNav()"><img src = "img/HamburgerLogo.png" width="193px" height="60px"/>
+  <div class="btn-toggle-nav" onclick="toggleNav()"><img src = "img/HamburgerLogo.png"/>
   </div>
 
-  <div class="user_icon"> <img src="img/user_icon.png" width: "55px"
-height: "55px"/>
+  <div class="user_icon"> <img src="img/user_icon.png"/>
   </div>
 
-<div>
-
+<div class="nav-left">
   <ul>
      <li id="name">
      <a href="#"><strong>John Doe</strong></a>
@@ -38,23 +36,34 @@ height: "55px"/>
      <li id="prospecting">
      <a href="#">Prospecção</a>
      </li>
-     <li id="call"> <img src="img/Path 371.png" top: "21px" left: "833px" width: "18px" height: "18px"/>
-     <a href="#" id="call-link">Chamada ativa</a>
+   </ul>
+ </div>
+
+ <div class="nav-right">
+    <ul>
+        <li ><button id="call-btn"> <img src="img/Path 371.png"/></button>
+     <a href="#" alt="Chamada ativa"></a>
      </li>
      <li>
-     <a href="#">logout</a>
+     <a href="#"><input id="input" type="text" placeholder="pausas"></a>
+     </li>
+     <li id="logout">
+     <a href="#">Logout</a>
+     </li>
+     <li id="logout-btn">
+     <a href="#"><img src="img/Path 372.png"/></a>
      </li>
    </ul>
-
+ </div>
 </nav>
-</div>
+
 <aside class="nav-sidebar">
   <ul>
-    <li>
+    <li><img id="Post-3" src="img/Post-3.png"/>
     <a href="#">Dashboard</a>
     </li>
-    <li>
-    <a href="#">Clients</a>
+    <li><img id="Post-2"src="img/Post-2.png"/>
+    <a href="#">Clientes</a>
     </li>
     <li>
     <a href="#">Atendente</a>
